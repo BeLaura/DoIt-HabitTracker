@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39AE1978269740510040244B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE1977269740510040244B /* AppDelegate.swift */; };
+		39AE197A269740510040244B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE1979269740510040244B /* SceneDelegate.swift */; };
+		39AE197C269740510040244B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE197B269740510040244B /* ViewController.swift */; };
+		39AE197F269740510040244B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39AE197D269740510040244B /* Main.storyboard */; };
+		39AE1981269740520040244B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39AE1980269740520040244B /* Assets.xcassets */; };
+		39AE1984269740530040244B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39AE1982269740530040244B /* LaunchScreen.storyboard */; };
+		39AE198F269740530040244B /* DoIt_HabitTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE198E269740530040244B /* DoIt_HabitTrackerTests.swift */; };
+		39AE199A269740530040244B /* DoIt_HabitTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE1999269740530040244B /* DoIt_HabitTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39AE198B269740530040244B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39AE196C269740510040244B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39AE1973269740510040244B;
+			remoteInfo = "DoIt-HabitTracker";
+		};
+		39AE1996269740530040244B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39AE196C269740510040244B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39AE1973269740510040244B;
+			remoteInfo = "DoIt-HabitTracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39AE1974269740510040244B /* DoIt-HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DoIt-HabitTracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AE1977269740510040244B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39AE1979269740510040244B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39AE197B269740510040244B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39AE197E269740510040244B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39AE1980269740520040244B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39AE1983269740530040244B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39AE1985269740530040244B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39AE198A269740530040244B /* DoIt-HabitTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DoIt-HabitTrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AE198E269740530040244B /* DoIt_HabitTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoIt_HabitTrackerTests.swift; sourceTree = "<group>"; };
+		39AE1990269740530040244B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39AE1995269740530040244B /* DoIt-HabitTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DoIt-HabitTrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AE1999269740530040244B /* DoIt_HabitTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoIt_HabitTrackerUITests.swift; sourceTree = "<group>"; };
+		39AE199B269740530040244B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39AE1971269740510040244B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AE1987269740530040244B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AE1992269740530040244B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39AE196B269740510040244B = {
+			isa = PBXGroup;
+			children = (
+				39AE1976269740510040244B /* DoIt-HabitTracker */,
+				39AE198D269740530040244B /* DoIt-HabitTrackerTests */,
+				39AE1998269740530040244B /* DoIt-HabitTrackerUITests */,
+				39AE1975269740510040244B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39AE1975269740510040244B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39AE1974269740510040244B /* DoIt-HabitTracker.app */,
+				39AE198A269740530040244B /* DoIt-HabitTrackerTests.xctest */,
+				39AE1995269740530040244B /* DoIt-HabitTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39AE1976269740510040244B /* DoIt-HabitTracker */ = {
+			isa = PBXGroup;
+			children = (
+				39AE1977269740510040244B /* AppDelegate.swift */,
+				39AE1979269740510040244B /* SceneDelegate.swift */,
+				39AE197B269740510040244B /* ViewController.swift */,
+				39AE197D269740510040244B /* Main.storyboard */,
+				39AE1980269740520040244B /* Assets.xcassets */,
+				39AE1982269740530040244B /* LaunchScreen.storyboard */,
+				39AE1985269740530040244B /* Info.plist */,
+			);
+			path = "DoIt-HabitTracker";
+			sourceTree = "<group>";
+		};
+		39AE198D269740530040244B /* DoIt-HabitTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				39AE198E269740530040244B /* DoIt_HabitTrackerTests.swift */,
+				39AE1990269740530040244B /* Info.plist */,
+			);
+			path = "DoIt-HabitTrackerTests";
+			sourceTree = "<group>";
+		};
+		39AE1998269740530040244B /* DoIt-HabitTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39AE1999269740530040244B /* DoIt_HabitTrackerUITests.swift */,
+				39AE199B269740530040244B /* Info.plist */,
+			);
+			path = "DoIt-HabitTrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39AE1973269740510040244B /* DoIt-HabitTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AE199E269740530040244B /* Build configuration list for PBXNativeTarget "DoIt-HabitTracker" */;
+			buildPhases = (
+				39AE1970269740510040244B /* Sources */,
+				39AE1971269740510040244B /* Frameworks */,
+				39AE1972269740510040244B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DoIt-HabitTracker";
+			productName = "DoIt-HabitTracker";
+			productReference = 39AE1974269740510040244B /* DoIt-HabitTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39AE1989269740530040244B /* DoIt-HabitTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AE19A1269740530040244B /* Build configuration list for PBXNativeTarget "DoIt-HabitTrackerTests" */;
+			buildPhases = (
+				39AE1986269740530040244B /* Sources */,
+				39AE1987269740530040244B /* Frameworks */,
+				39AE1988269740530040244B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39AE198C269740530040244B /* PBXTargetDependency */,
+			);
+			name = "DoIt-HabitTrackerTests";
+			productName = "DoIt-HabitTrackerTests";
+			productReference = 39AE198A269740530040244B /* DoIt-HabitTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39AE1994269740530040244B /* DoIt-HabitTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AE19A4269740530040244B /* Build configuration list for PBXNativeTarget "DoIt-HabitTrackerUITests" */;
+			buildPhases = (
+				39AE1991269740530040244B /* Sources */,
+				39AE1992269740530040244B /* Frameworks */,
+				39AE1993269740530040244B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39AE1997269740530040244B /* PBXTargetDependency */,
+			);
+			name = "DoIt-HabitTrackerUITests";
+			productName = "DoIt-HabitTrackerUITests";
+			productReference = 39AE1995269740530040244B /* DoIt-HabitTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39AE196C269740510040244B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					39AE1973269740510040244B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					39AE1989269740530040244B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 39AE1973269740510040244B;
+					};
+					39AE1994269740530040244B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 39AE1973269740510040244B;
+					};
+				};
+			};
+			buildConfigurationList = 39AE196F269740510040244B /* Build configuration list for PBXProject "DoIt-HabitTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39AE196B269740510040244B;
+			productRefGroup = 39AE1975269740510040244B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39AE1973269740510040244B /* DoIt-HabitTracker */,
+				39AE1989269740530040244B /* DoIt-HabitTrackerTests */,
+				39AE1994269740530040244B /* DoIt-HabitTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39AE1972269740510040244B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AE1984269740530040244B /* LaunchScreen.storyboard in Resources */,
+				39AE1981269740520040244B /* Assets.xcassets in Resources */,
+				39AE197F269740510040244B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AE1988269740530040244B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AE1993269740530040244B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39AE1970269740510040244B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AE197C269740510040244B /* ViewController.swift in Sources */,
+				39AE1978269740510040244B /* AppDelegate.swift in Sources */,
+				39AE197A269740510040244B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AE1986269740530040244B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AE198F269740530040244B /* DoIt_HabitTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AE1991269740530040244B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AE199A269740530040244B /* DoIt_HabitTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39AE198C269740530040244B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39AE1973269740510040244B /* DoIt-HabitTracker */;
+			targetProxy = 39AE198B269740530040244B /* PBXContainerItemProxy */;
+		};
+		39AE1997269740530040244B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39AE1973269740510040244B /* DoIt-HabitTracker */;
+			targetProxy = 39AE1996269740530040244B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39AE197D269740510040244B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39AE197E269740510040244B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39AE1982269740530040244B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39AE1983269740530040244B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39AE199C269740530040244B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39AE199D269740530040244B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39AE199F269740530040244B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9QWB38TLV;
+				INFOPLIST_FILE = "DoIt-HabitTracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Laura.DoIt-HabitTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39AE19A0269740530040244B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9QWB38TLV;
+				INFOPLIST_FILE = "DoIt-HabitTracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Laura.DoIt-HabitTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39AE19A2269740530040244B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9QWB38TLV;
+				INFOPLIST_FILE = "DoIt-HabitTrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Laura.DoIt-HabitTrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoIt-HabitTracker.app/DoIt-HabitTracker";
+			};
+			name = Debug;
+		};
+		39AE19A3269740530040244B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9QWB38TLV;
+				INFOPLIST_FILE = "DoIt-HabitTrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Laura.DoIt-HabitTrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoIt-HabitTracker.app/DoIt-HabitTracker";
+			};
+			name = Release;
+		};
+		39AE19A5269740530040244B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9QWB38TLV;
+				INFOPLIST_FILE = "DoIt-HabitTrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Laura.DoIt-HabitTrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DoIt-HabitTracker";
+			};
+			name = Debug;
+		};
+		39AE19A6269740530040244B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9QWB38TLV;
+				INFOPLIST_FILE = "DoIt-HabitTrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Laura.DoIt-HabitTrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DoIt-HabitTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39AE196F269740510040244B /* Build configuration list for PBXProject "DoIt-HabitTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AE199C269740530040244B /* Debug */,
+				39AE199D269740530040244B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AE199E269740530040244B /* Build configuration list for PBXNativeTarget "DoIt-HabitTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AE199F269740530040244B /* Debug */,
+				39AE19A0269740530040244B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AE19A1269740530040244B /* Build configuration list for PBXNativeTarget "DoIt-HabitTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AE19A2269740530040244B /* Debug */,
+				39AE19A3269740530040244B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AE19A4269740530040244B /* Build configuration list for PBXNativeTarget "DoIt-HabitTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AE19A5269740530040244B /* Debug */,
+				39AE19A6269740530040244B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39AE196C269740510040244B /* Project object */;
+}
